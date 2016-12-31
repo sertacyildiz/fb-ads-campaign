@@ -1,0 +1,183 @@
+*{margin:0 auto;}
+#main{width:100%;height:100%;float:left;
+    font-family: "Arial";
+    font-size:14px;text-align:left;position:relative;top:0px;}
+
+#container{width:94%;height:auto;position:relative;top:10px;margin:auto}
+#logo{position:relative;float:left;width:88%;left:6%;clear: both;margin-bottom:20px;}
+.logoImage{position:relative;max-width:200px;max-height:60px;}
+.leftI{float:left;top:20px;}
+.rightI{float:right;}
+#results{position:relative;float:left;top:20px;width:100%;}
+
+
+
+table a:link {
+    color: #666;
+    font-weight: 500;
+    text-decoration:none;
+}
+table a:visited {
+    color: #999999;
+    font-weight:500;
+    text-decoration:none;
+}
+table a:active,
+table a:hover {
+    color: #bd5a35;
+    text-decoration:underline;
+}
+table {
+    color:#666;
+    font-size:12px;
+    text-shadow: 1px 1px 0px #fff;
+    background:#eaebec;
+    margin:20px auto;
+    border:#ccc 1px solid;
+    cursor: default;
+    letter-spacing: 0.6px;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+    padding:17px 15px 18px 15px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+    color:#fafafa;
+    text-shadow: 1px 1px 0px #333;
+    font-size:13px;
+
+    background: #4C67A1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4C67A1), to(#3B5998));
+    background: -moz-linear-gradient(top,  #4C67A1,  #3B5998);
+}
+table th:first-child {
+    text-align: left;
+    padding-left:20px;
+}
+table tr:first-child th:first-child {
+    -moz-border-radius-topleft:3px;
+    -webkit-border-top-left-radius:3px;
+    border-top-left-radius:3px;
+}
+table tr:first-child th:last-child {
+    -moz-border-radius-topright:3px;
+    -webkit-border-top-right-radius:3px;
+    border-top-right-radius:3px;
+}
+table tr {
+    text-align: center;
+    padding-left:20px;
+}
+table td:first-child {
+    text-align: left;
+    padding-left:20px;
+    border-left: 0;
+}
+table td {
+    padding:15px;
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+    background: #f6f6f6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+    background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+    border-bottom:0;
+}
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:3px;
+    -webkit-border-bottom-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:3px;
+    -webkit-border-bottom-right-radius:3px;
+    border-bottom-right-radius:3px;
+}
+table tr:hover td {
+    background: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f2f2f2));
+    background: -moz-linear-gradient(top,  #f4f4f4,  #f2f2f2);
+    cursor: pointer;
+}
+
+
+
+
+
+/* #### bootstrap Form #### */
+.bootstrap-frm {
+    margin-left:auto;
+    margin-right:auto;
+
+    background: #FFF;
+    padding: 10px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+.bootstrap-frm label {
+    color:#3B5998;
+}
+
+.bootstrap-frm input, .bootstrap-frm select{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 13px;
+    color: #4a66a0;}
+
+.bootstrap-frm input[type="date"], .bootstrap-frm select{
+    border: 1px solid #CCC;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+}
+
+.bootstrap-frm input[type="date"]{
+    height: 35px;
+    margin-right: 10px;
+}
+.bootstrap-frm select {
+
+    text-indent: 0.01px;
+    text-overflow: '';
+    height: 35px;
+    line-height:15px;
+    margin-right: 20px;
+}
+.bootstrap-frm  input[type="button"]{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 11px 25px;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bootstrap-frm input[type="button"]:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+
+
+.exception{color:#3B5998;font-weight: bold;padding:10px;}

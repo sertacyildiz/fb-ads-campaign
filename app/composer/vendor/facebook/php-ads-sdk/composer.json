@@ -1,0 +1,21 @@
+{
+    "name": "facebook/php-ads-sdk",
+    "description": "PHP SDK for Facebook ads",
+    "type": "library",
+    "license": "Facebook Platform",
+    "keywords": [
+      "facebook",
+      "ads",
+      "sdk"
+    ],
+    "homepage": "https://developers.facebook.com/",
+    "require-dev" : {
+        "phpunit/phpunit": ">=4.0.0",
+        "symfony/finder": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "FacebookAds\\": "src/FacebookAds/"
+        }
+    }
+}

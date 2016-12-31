@@ -1,0 +1,172 @@
+a {
+    color: #ee7757;
+}
+.colored {
+    color: #ee7757
+}
+h2.post-title a:hover {
+    color: #ee7757
+}
+ul.circled li:before {
+    color: #ee7757;
+}
+blockquote {
+    background: #ee7757;
+}
+.footer a:hover {
+    color: #ee7757
+}
+.btn,
+.btn-submit {
+    background: #ee7757;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    background: #d96c4f;
+}
+.navbar-brand {
+    background: #ee7757;
+}
+.navbar-brand:hover {
+    background: #d96c4f
+}
+.nav > li > a:hover {
+    color: #ee7757;
+}
+.nav > li.current > a {
+    color: #ee7757;
+}
+.navbar .nav .open > a,
+.navbar .nav .open > a:hover,
+.navbar .nav .open > a:focus {
+    color: #ee7757;
+}
+.navbar .dropdown-menu > li > a:hover,
+.navbar .dropdown-menu > li > a:focus,
+.navbar .dropdown-submenu:hover > a,
+.navbar .dropdown-submenu:focus > a,
+.navbar .dropdown-menu > .active > a,
+.navbar .dropdown-menu > .active > a:hover,
+.navbar .dropdown-menu > .active > a:focus {
+    color: #ee7757;
+}
+.parallax a {
+    color: #ee7757
+}
+.share-button {
+    border-bottom: 1px solid #ee7757;
+}
+.facts i {
+    color: #ee7757;
+}
+.filter li a:hover,
+.filter li a.active {
+    color: #ee7757
+}
+figure a .text-overlay {
+    background: #ee7757;
+    background: rgba(230, 126, 34,0.90);
+}
+.icon-overlay a .icn-more {
+    background: #ee7757;
+    background: rgba(230, 126, 34,0.90);
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-bottom: 1px solid #ee7757
+}
+.contact-info li a:hover {
+    color: #ee7757
+}
+.contact-info i {
+    color: #ee7757;
+}
+.progress-list li em {
+    color: #ee7757;
+}
+.progress.plain {
+    border: 1px solid #ee7757;
+}
+.progress.plain .bar {
+    background: #ee7757;
+}
+.panel-title > a:hover {
+    color: #ee7757
+}
+.tabs-top .tab a:hover,
+.tabs-top .tab.active a {
+    color: #ee7757;
+    border-color: #ee7757;
+}
+.pricing .plan h4 span {
+    color: #ee7757
+}
+.sidebox a:hover {
+    color: #ee7757
+}
+ul.tag-list li a:hover {
+    color: #ee7757 !important;
+    border: 1px solid #ee7757;
+}
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+    color: #ee7757 !important;
+    border: 1px solid #ee7757;
+}
+#comments .info h2 a:hover {
+    color: #ee7757
+}
+#comments a.reply-link:hover {
+    color: #ee7757
+}
+.more {
+    border-bottom: 1px solid #ee7757;
+}
+.post .meta a:hover,
+.more:hover {
+    color: #ee7757
+}
+.tooltip-inner {
+    background-color: #ee7757;
+}
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: #ee7757
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #ee7757
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #ee7757
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #ee7757
+}
+.tp-loader.spinner0,
+#fancybox-loading div {
+    border-left: 3px solid rgba(230, 126, 34,.15) !important;
+    border-right: 3px solid rgba(230, 126, 34,.15) !important;
+    border-bottom: 3px solid rgba(230, 126, 34,.15) !important;
+    border-top: 3px solid rgba(230, 126, 34,.8) !important;
+}
