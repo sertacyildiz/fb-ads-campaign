@@ -3,13 +3,8 @@ include_once __DIR__ . '/config.php';
 
 $ping = "pong";
 
-$mongo = new emrMongo();
-$mongo->setAutoConnect( false );
-$mongo->mongoConnect();
 
 $emrSession = new emrSession();
-
-$emrExecution = new emrExecution();
 
 errorlog( $_GET );
 errorlog( $_POST );
@@ -37,43 +32,10 @@ if ( isset( $_GET[ 'd' ] ) ) {
 if ( $actionA == "administration" ) {
 
   $subActions = array(
-      "login" => array(),
-      "admin" => array( "list", "password", "new", "logout", "stats" ),
-      "languages" => array( "list", "create", "json" ),
-      "team" => array( "list", "edit", "json", "upload" ),
-      "reference" => array( "list", "edit", "json", "upload" ),
-      "businesspartner" => array( "list", "edit", "json", "upload" ),
-      "showcase" => array( "list", "edit", "json", "upload" ),
-      "slider" => array( "list", "edit", "json", "upload" ),
-      "about" => array( "list", "edit", "json" ),
       "fbcamp" => array( "view", "list", "edit", "json" ),
       "adtest" => array( "view", "list", "edit", "json" )
   );
 
-  if ( !isAdminLoggedIn() ) {
-    include_once ACTIONS . "/admin/login.php";
-    endHere();
-    exit();
-  }
-
-  if ( !isset( $actionB ) ) {
-    include_once ACTIONS . "/admin/main.php";
-    endHere();
-    exit();
-  }
-
-  if ( $actionB == "exit" ) {
-    $emrSession->DestroySession();
-    include_once ACTIONS . "/admin/login.php";
-    endHere();
-    exit();
-  }
-
-  if ( $actionB == "login" ) {
-    include_once ACTIONS . "/admin/login.php";
-    endHere();
-    exit();
-  }
 
   if ( array_key_exists( $actionB, $subActions ) ) {
     if ( isset( $actionC ) && in_array( $actionC, $subActions[ $actionB ] ) ) {
@@ -102,8 +64,6 @@ if ( $actionA == "administration" ) {
 
 $actions = array(
     "main" => array(),
-    "sendMail" => "",
-    "portfolio-post" => "",
     "fbcamp" => array( "test", "index", "curl", "login" ),
     "adtest" => array( "test", "index", "curl", "login" )
 );
