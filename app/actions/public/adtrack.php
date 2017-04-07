@@ -4,7 +4,7 @@
 
 $appID = FACEBOOK_APP_ID;
 $appSecret = FACEBOOK_APP_SECRET;
-$accessToken = "CAAUygNNkpFYBAO6HeJ73XLQNeINWVnD1HZBLHbgpZA8id7bmChugtbxpdHw9jEwPKfDe344YZBdMCdk55HqZCGHsuCT39ZBOi0915QloZCKSNNXqoZCYyYUJb3zxv9eNEuSZBvV9F2Fus1ZB8SZA6F2AmrfNOQTZCaFhorranzs78I9CduV9MCYabe6yF03m9xyFxwZD";
+$accessToken = "write_your_access_token_here";
 
 use FacebookAds\Api;
 
@@ -23,7 +23,7 @@ use FacebookAds\Object\Fields\AdCreativeFields;
 use FacebookAds\Object\Values\InsightsPresets;
 use FacebookAds\Object\Fields\InsightsFields;
 
-$accountId = 'act_22449792';
+$accountId = 'act_00000000';
 $account = new AdAccount( $accountId );
 
 //---CAMPAIGNS---------------------------------------------
@@ -58,7 +58,7 @@ $adgroups = $adset->getAdGroups(array(
     AdGroupFields::NAME,
 ), array());
 
-$adgroupId = '6030854329514';
+$adgroupId = 'write_adgroup_id_here';
 //$adgroupId = $adgroups[0]->{AdGroupFields::ID};
 $adgroup = new AdGroup($adgroupId);
 
